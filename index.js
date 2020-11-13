@@ -17,8 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
-
+The reason that the nestedFunction has access to the internal variable, is because it is able to reach outside of itself into the higher order function to obtain the variable it needs. Functions can reach out, but you can't reach into a function to get a variable.
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
