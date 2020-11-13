@@ -127,7 +127,10 @@ const zooAnimals = [
   
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions 🦁💪
- 
+//  consume = (a,b,cb) => cb(a,b);
+//  add = (a,b) => a + b;
+//  multiply = (a,b) => a * b;
+//  greeting = (a,b) => `Hello ${a} ${b}, nice to meet you!`;
 
 
 
@@ -202,11 +205,11 @@ const cuboidTwo = new CuboidMakerTwo({
   length: 4,
   width: 5,
   height: 5,
-})
+});
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-// console.log(cuboidTwo.volume()); // 100
-// console.log(cuboidTwo.surfaceArea()); // 130
+console.log(cuboidTwo.volume()); // 100
+console.log(cuboidTwo.surfaceArea()); // 130
 
 
 
